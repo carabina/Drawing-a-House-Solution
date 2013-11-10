@@ -21,6 +21,7 @@
 		6F685EE9182FDBE4005B01CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F685ECB182FDBE4005B01CD /* UIKit.framework */; };
 		6F685EF1182FDBE4005B01CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F685EEF182FDBE4005B01CD /* InfoPlist.strings */; };
 		6F685EF3182FDBE4005B01CD /* Drawing_a_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F685EF2182FDBE4005B01CD /* Drawing_a_HouseTests.m */; };
+		6F685EFE182FDC92005B01CD /* CCHouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F685EFD182FDC92005B01CD /* CCHouseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6F685EEE182FDBE4005B01CD /* Drawing a HouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing a HouseTests-Info.plist"; sourceTree = "<group>"; };
 		6F685EF0182FDBE4005B01CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F685EF2182FDBE4005B01CD /* Drawing_a_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_a_HouseTests.m; sourceTree = "<group>"; };
+		6F685EFC182FDC92005B01CD /* CCHouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHouseView.h; sourceTree = "<group>"; };
+		6F685EFD182FDC92005B01CD /* CCHouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHouseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				6F685ED6182FDBE4005B01CD /* CCAppDelegate.h */,
 				6F685ED7182FDBE4005B01CD /* CCAppDelegate.m */,
 				6F685ED9182FDBE4005B01CD /* Main.storyboard */,
+				6F685EFC182FDC92005B01CD /* CCHouseView.h */,
+				6F685EFD182FDC92005B01CD /* CCHouseView.m */,
 				6F685EDC182FDBE4005B01CD /* CCViewController.h */,
 				6F685EDD182FDBE4005B01CD /* CCViewController.m */,
 				6F685EDF182FDBE4005B01CD /* Images.xcassets */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F685ED8182FDBE4005B01CD /* CCAppDelegate.m in Sources */,
+				6F685EFE182FDC92005B01CD /* CCHouseView.m in Sources */,
 				6F685ED4182FDBE4005B01CD /* main.m in Sources */,
 				6F685EDE182FDBE4005B01CD /* CCViewController.m in Sources */,
 			);
